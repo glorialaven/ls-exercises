@@ -1,5 +1,5 @@
-opposites = {name: "Gloria Lavenberg", age: "31yrs", birthday: "Sept 18, 1984"}
+loop = {name: "Gloria Lavenberg", age: "31yrs", birthday: "Sept 18, 1984"}
 
-opposites.each_key { |k| puts k }
-opposites.each_value { |v| puts v }
-opposites.each { |k, v| puts "#{k}: #{v}" }
+loop.each_key { |k| puts k }
+loop.each_value { |v| puts v }
+loop.each { |k, v| puts "#{k}: #{v}" }
